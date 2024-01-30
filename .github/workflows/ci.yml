@@ -26,4 +26,4 @@ jobs:
       - name: View poetry --help
         run: poetry --help
       - name: Run install
-        run: poetry install
+        run: poetry install -vvv --no-cache
