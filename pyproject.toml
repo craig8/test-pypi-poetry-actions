@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-volttron = {version = "10.0.1a10", source = "test-pypi"}
+fake-volttron version = {version = "*", source = "test-pypi"}
 
 
 [build-system]
