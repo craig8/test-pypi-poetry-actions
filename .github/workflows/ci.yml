@@ -25,3 +25,5 @@ jobs:
           poetry config virtualenvs.in-project true
       - name: View poetry --help
         run: poetry --help
+      - name: Run install
+        run: poetry install
