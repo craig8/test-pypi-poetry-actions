@@ -27,3 +27,8 @@ jobs:
         run: poetry --help
       - name: Run install
         run: poetry install -vvv --no-cache
+      - name: create new branch
+        run: |
+          git checkout -b new_branch
+          git push --set-upstream origin new_branch
+
